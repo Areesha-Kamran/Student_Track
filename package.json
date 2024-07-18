@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.23"
+  },
+  "name": "student_track",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin":"index.js",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Areesha Kamran",
+  "license": "ISC",
+  "description": "StudentTrack is a CLI-based student management system that guides you through enrolling in courses and managing payments. Enter your name, select your course, transfer the required fee, and view your enrollment status—all through a simple command-line interface."
+}
